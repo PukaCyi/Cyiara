@@ -1,6 +1,4 @@
-html { 
-   background: url('global/assets/stars.jpg');
+html {
+   background: url('https://pukacyi.github.io/Cyiara/global/assets/stars.jpg') no-repeat fixed;
    background-size: cover; 
-   background-repeat: no-repeat;
-   background-attachment: fixed;
 }
