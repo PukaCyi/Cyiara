@@ -7,4 +7,4 @@ Assets here is more than likely pulled from another site, see credits below for 
 
 # Credits
 * [PukaCyi](https://twitter.com/PukaCyi) - Literally started all this???
-* [Arya Kratos](https://www.pexels.com/@arya-kratos-14739/)Stars background image, under the CC0 License
+* [Arya Kratos](https://www.pexels.com/@arya-kratos-14739/) - Stars background image, under the CC0 License
