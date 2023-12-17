@@ -2,3 +2,43 @@ html {
    background: url('https://pukacyi.github.io/Cyiara/global/assets/stars.jpg') no-repeat fixed;
    background-size: cover; 
 }
+
+/** Dark Mode **/
+:root {
+   --bana-text: #FFFFFF;
+   --bana-shadow: #FFC0CB;
+   --banaintroboxbgcolor: rgb(20, 1, 6,0.25)
+ }
+ 
+ #box-1 {
+   background-color: var(--banaintroboxbgcolor);
+   border-radius: 1vh;
+   box-shadow: 0 0 85px var(--bana-shadow);
+   backdrop-filter: blur(9px);
+   width: 50em;
+   height: 50em;
+   margin: auto;
+   margin-top: 10em !important
+ }
+ 
+ #banami-intro {
+   text-align: center;
+   padding-top: 50px;
+   color: var(--bana-text)
+ }
+ 
+ #linky-bana:visited {
+   color: var(--bana-text);
+ }
+ 
+ hr {
+   border-color: #FFC0CB;
+   filter: blur(1.5px)
+ }
+ 
+ #text {
+   color: white;
+   padding-left: 20px;
+   text-align: center;
+ }
+ 
