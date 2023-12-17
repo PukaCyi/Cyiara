@@ -12,6 +12,11 @@ var trace = function(txt, ty) {
      */
 };
 
+var traceHelper = function() {
+    trace('\nTrace Doc\n--------------\n2 types: "warn", "note"', "note"); 
+    trace("Banami is cute but Aori...", "warn"); //hueh 
+};
+
 document.addEventListener("DOMContentLoaded", function() {
     trace("Site fully loaded! :D", "note");
 });
