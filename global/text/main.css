@@ -1,3 +1,10 @@
+@font-face {
+  font-family: Wii;
+  src: url('https://raw.githubusercontent.com/PukaCyi/Cyiara/gh-pages/global/assets/wii-bold.ttf');
+  font-weight: bold;
+  font-style: normal;
+}
+
 html {
    background: url('https://pukacyi.github.io/Cyiara/global/assets/stars.jpg') no-repeat fixed;
    background-size: cover; 
@@ -45,4 +52,13 @@ hr {
   color: white;
   text-align: center;
   margin: 10px; 
+}
+
+a#linky-bana {
+  font-family: Wii;
+  font-size: 27px;
+  text-decoration: none;
+  background: linear-gradient(180deg, #ffffff, #ff8ba2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
