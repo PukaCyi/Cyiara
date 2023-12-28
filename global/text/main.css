@@ -23,8 +23,8 @@ html {
   border: 1.25px solid rgb(62 0 255);
   box-shadow: 0 0 85px var(--bana-shadow);
   backdrop-filter: blur(9px);
-  width: 80%;
-  height: 80%;
+  width: 53em;
+  height: 15em;
   margin: auto;
   margin-top: 10em !important;
   display: flex;
@@ -73,4 +73,14 @@ a#linky-bana {
   background: linear-gradient(180deg, #ffffff, #ff8ba2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+/** 
+  ERROR PAGE 
+**/
+
+body h2 {
+  text-align: center;
+  color: white;
+  font-familY: Wii, Arial;
 }
