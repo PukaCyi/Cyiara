@@ -1,32 +1,31 @@
 @font-face {
-  font-family: Wii;
+  font-family: 'Wii';
   src: url('https://raw.githubusercontent.com/PukaCyi/Cyiara/gh-pages/global/assets/wii-bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 html {
-   background: url('https://pukacyi.github.io/Cyiara/global/assets/stars.jpg') no-repeat fixed;
-   background-size: cover; 
+  background: url('https://pukacyi.github.io/Cyiara/global/assets/stars.jpg') no-repeat fixed;
+  background-size: cover;
 }
 
-/** Dark Mode **/
+/* Dark Mode */
 :root {
   --bana-text: #FFFFFF;
   --bana-shadow: #240093;
-  --banaintroboxbgcolor: rgb(14 4 45 / 15%);
+  --banaintroboxbgcolor: rgba(14, 4, 45, 0.15);
 }
 
 #box-1 {
   background-color: var(--banaintroboxbgcolor);
   border-radius: 1vh;
-  border: 1.25px solid rgb(62 0 255);
+  border: 1.25px solid rgb(62, 0, 255);
   box-shadow: 0 0 85px var(--bana-shadow);
   backdrop-filter: blur(9px);
   width: 53em;
   height: 15em;
-  margin: auto;
-  margin-top: 10em !important;
+  margin: 10em auto 0 !important;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,13 +60,13 @@ hr {
 #text {
   color: white;
   text-align: center;
-  font-family: Wii;
+  font-family: 'Wii';
   margin-top: -10px;
   margin-bottom: 5px;
 }
 
 a#linky-bana {
-  font-family: Wii;
+  font-family: 'Wii';
   font-size: 27px;
   text-decoration: none;
   background: linear-gradient(180deg, #ffffff, #ff8ba2);
@@ -75,12 +74,38 @@ a#linky-bana {
   -webkit-text-fill-color: transparent;
 }
 
-/** 
-  ERROR PAGE 
+/**
+  ERROR PAGE - Based off of the Nintendo Wii's Popup Message
+  Wii Deleted You by IceyPie
 **/
+
+.wii-button {
+  color: black;
+  background: linear-gradient(2.7646rad, #ececec, #d2d2d2);
+  border: 2px #b6b6b6 solid;
+  border-radius: 5px;
+  font-family: 'Wii', Arial;
+  font-size: 18px;
+  margin-left: 194px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  box-shadow: -0.5px 3px 10px 0px black;
+}
+
+.error-page {
+  background: linear-gradient(160deg, #ececec, #d2d2d2);
+  width: 500px;
+  align-content: center;
+  margin: 350px auto 0;
+  border-radius: 30px;
+  height: 200px;
+}
 
 .error-page h2 {
   text-align: center;
-  color: white;
-  font-familY: Wii, Arial;
+  color: black;
+  padding-top: 65px !important;
+  font-family: 'Wii', Arial;
+  font-weight: normal; /* it won't work yet shut up */
 }

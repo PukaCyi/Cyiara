@@ -17,6 +17,15 @@ var traceHelper = function() {
     trace("Banami is cute but Aori...", "warn"); //hueh 
 };
 
+errorPage = document.getElementsByClassName('error-page');
+
+if (errorPage.length > 0) {
+    trace("Henry what the fuck did you just do... HOW THE FUCK DID YOU BURN THE WATER??", "warn");
+    trace("Austin shut up you built like a Nintendo Wii", "info")
+    trace("stop talking to yourself","info");
+    trace("WII DELETED YOU.","warn");
+}
+
 document.addEventListener("DOMContentLoaded", function() {
     trace("Site fully loaded! :D", "note");
 });
