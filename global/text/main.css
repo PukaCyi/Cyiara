@@ -36,12 +36,12 @@ html {
 #box-1 .wii-button {
    margin-left: 0vh;
    width: 10em !important;
-   transition: transform 0.15s; /* Add transition for a smooth effect */
+   transition: transform 0.15s; 
 }
 
 #box-1 .wii-button:hover {
   border: 2px solid aqua;
-  transform: scale(1.02); /* Increase size by 5% on hover */
+  transform: scale(1.02); 
 }
 
 /* Nonsense code */
