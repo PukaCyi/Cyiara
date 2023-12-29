@@ -5,12 +5,13 @@ const trace = function(txt, ty) {
     pat = `color: ${hex[ty]}; font-weight: bold; font-family: "Arial"; font-size: 13px;`;
 
     /* Error Catcher */
-    if (txt !== undefined || !(ty in ver)) {
-        console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
-    }
-    else {
+    if (!(ty in ver)) {
         trace("You didn't run the trace command correctly. Please review the Help Guide for tracing below.", "warn");
         traceHelper();
+    }
+    else {
+        console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
+
     }    
 };
 
