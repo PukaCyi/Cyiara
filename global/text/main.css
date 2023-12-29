@@ -54,23 +54,19 @@ html {
 
 #text-box-amii #text {
   text-align: left;
-  margin-left: 20px;
-  margin-top: 40px;
-  margin-right: 20px;
+  margin: 40px 20px 0;
 }
 
 #text-box-amii .wii-button {
   align-items: left;
   justify-content: left;
-  margin-left: 20px;
-  margin-bottom: -25px;
-  transition: transform 0.15s; 
-
+  margin: -25px 20px 0;
+  transition: transform 0.15s;
 }
 
 #text-box-amii .wii-button:hover {
- border: 2px solid aqua;
- transform: scale(1.02); 
+  border: 2px solid aqua;
+  transform: scale(1.02);
 }
 
 #text-box-amii .except {
@@ -80,14 +76,14 @@ html {
 
 /* Button for Main Page */
 #box-1 .wii-button {
-   margin-left: 0vh;
-   width: 10em !important;
-   transition: transform 0.15s; 
+  margin-left: 0;
+  width: 10em !important;
+  transition: transform 0.15s;
 }
 
 #box-1 .wii-button:hover {
   border: 2px solid aqua;
-  transform: scale(1.02); 
+  transform: scale(1.02);
 }
 
 /* Nonsense code */
@@ -119,8 +115,7 @@ hr {
   color: white;
   text-align: center;
   font-family: 'Wii';
-  margin-top: -10px;
-  margin-bottom: 5px;
+  margin: -10px 0 5px;
 }
 
 a#linky-bana {
@@ -129,7 +124,7 @@ a#linky-bana {
   text-decoration: none;
   background: linear-gradient(180deg, #ffffff, #ff8ba2);
   background-clip: text; /* this fucking editor won't shut up about compatbility */
-  -webkit-background-clip: text; 
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   color: transparent;
 }
