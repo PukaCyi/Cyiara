@@ -64,6 +64,13 @@ html {
   justify-content: left;
   margin-left: 20px;
   margin-bottom: -25px;
+  transition: transform 0.15s; 
+
+}
+
+#text-box-amii .wii-button:hover {
+ border: 2px solid aqua;
+ transform: scale(1.02); 
 }
 
 #text-box-amii .except {
