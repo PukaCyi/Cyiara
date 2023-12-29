@@ -1,15 +1,17 @@
 // hahaha haxe trace !! NO WAY!! 
 const trace = function(txt, ty) {
-    zType = { warn: "Warning", note: "Notice" };
-    zColor = { warn: "#ff0019", note: "#ffa600", };
-    zStyle = `color: ${zColor[ty]}; font-weight: bold; font-family: "Arial"; font-size: 13px;`;
+    ver = { warn: "Warning", note: "Notice" };
+    hex = { warn: "#ff0019", note: "#ffa600", };
+    pat = `color: ${hex[ty]}; font-weight: bold; font-family: "Arial"; font-size: 13px;`;
 
-    console.log(`%c[ ${zType[ty]} ] %c${txt}`, zStyle, '');
-
-    /** 
-     * Usage:
-     * Input: trace("Banami is cute but Aori...","warn") - Output: ** [ Warning ] ** Banami is cute but Aori...
-     */
+    /* Error Catcher */
+    if (txt !== undefined || !(ty in zType)) {
+        console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
+    }
+    else {
+        trace("You didn't run the trace command correctly. Please review the Help Guide for tracing below.", "warn");
+        traceHelper();
+    }    
 };
 
 var traceHelper = function() {
