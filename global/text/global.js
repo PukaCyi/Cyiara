@@ -5,7 +5,7 @@ const trace = function(txt, ty) {
     pat = `color: ${hex[ty]}; font-weight: bold; font-family: "Arial"; font-size: 13px;`;
 
     /* Error Catcher */
-    if (txt !== undefined || !(ty in zType)) {
+    if (txt !== undefined || !(ty in ver)) {
         console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
     }
     else {
