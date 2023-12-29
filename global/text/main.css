@@ -24,7 +24,7 @@ html {
   box-shadow: 0 0 85px var(--bana-shadow);
   backdrop-filter: blur(9px);
   width: 53em;
-  height: 15em;
+  height: 30em;
   margin: 10em auto 0 !important;
   display: flex;
   flex-direction: column;
@@ -32,11 +32,23 @@ html {
   justify-content: center;
 }
 
+/* Button for Main Page */
+#box-1 .wii-button {
+   margin-left: 0vh;
+   width: 10em !important;
+   transition: transform 0.15s; /* Add transition for a smooth effect */
+}
+
+#box-1 .wii-button:hover {
+  border: 2px solid aqua;
+  transform: scale(1.02); /* Increase size by 5% on hover */
+}
+
 /* Nonsense code */
 #bana-img-pfp {
   height: 150px;
   width: 150px;
-  margin-top: 20px;
+  margin-top: -2.5em;
   border-radius: 10px;
   box-shadow: 0 0 5px #000000;
 }
@@ -70,8 +82,10 @@ a#linky-bana {
   font-size: 27px;
   text-decoration: none;
   background: linear-gradient(180deg, #ffffff, #ff8ba2);
-  -webkit-background-clip: text;
+  background-clip: text; /* this fucking editor won't shut up about compatbility */
+  -webkit-background-clip: text; 
   -webkit-text-fill-color: transparent;
+  color: transparent;
 }
 
 /**
