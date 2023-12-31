@@ -7,11 +7,20 @@
 }
 
 /* Dark Mode */
+
+* {
+  color: white;
+}
+
 :root {
   --bana-text: #FFFFFF;
   --bana-shadow: #240093;
   --banaintroboxbgcolor: rgba(14, 4, 45, 0.15);
   --htmlfallbackdark: rgb(2,0,1)
+}
+
+hr {
+  visibility: none;
 }
 
 html {
@@ -128,7 +137,19 @@ html {
   margin-right: 30px;
 }
 
-hr {
+#norax .wii-button {
+  align-items: left;
+  justify-content: left;
+  margin: 25px 20px -5px;
+  transition: transform 0.15s;
+}
+
+#norax .wii-button:hover {
+  border: 2px solid rgb(247, 6, 52);
+  transform: scale(1.02);
+}
+  
+#norax hr {
   border: 2px dashed red;;
   width: 75%;
   margin-left: 175px;
