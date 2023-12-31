@@ -7,7 +7,6 @@
 }
 
 /* Dark Mode */
-
 * {
   color: white;
 }
@@ -17,10 +16,6 @@
   --bana-shadow: #240093;
   --banaintroboxbgcolor: rgba(14, 4, 45, 0.15);
   --htmlfallbackdark: rgb(2,0,1)
-}
-
-hr {
-  visibility: none;
 }
 
 html {
@@ -86,12 +81,13 @@ html {
 
 #text-box-amii #text {
   text-align: left;
-  margin: 40px 20px 0;
+  margin: 40px 20px -20px;
 }
 
 #text-box-amii .except {
-  margin-top: 15px !important;
-  text-align: center;
+  padding-top: -59px;
+  margin-bottom: -25px !important;
+  text-align: center !important;
 }
 
 #text-box-amii .wii-button {
@@ -132,7 +128,7 @@ html {
   margin-right: 30px;
 }
 
-.except {
+#norax .except {
   text-align: right !important;
   margin-right: 30px;
 }
