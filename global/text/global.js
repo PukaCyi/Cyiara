@@ -30,20 +30,26 @@ document.addEventListener("DOMContentLoaded", function() {
     trace("Site fully loaded! :D", "note");
 });
 
+
 function hikkiomori() {
     document.cookie = omo; 
 }
 
+let bossRush = false;
+
 function hikki() {
-    if (document.cookie.includes('omo')) {
+    if (!bossRush && document.cookie.includes('omo')) {
+        bossRush = true;
         hueh = new Audio('https://pukacyi.github.io/Cyiara/global/assets/music/hikkomori.mp3');
         hueh.play();
-        hueh.loop();
-        trace("You wanted to see.. what lays beyond...","info")
-    }
-    else {
-        trace("What made you want to do this? Why are you so pathetic... ", "warn")
+        hueh.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+        trace("You wanted to see.. what lays beyond...", "info");
+    } else if (bossRush) {
+        trace("What made you want to do this? Why are you so pathetic... ", "warn");
     }
 }
 
-hikki();
+document.addEventListener('click', hikki);
