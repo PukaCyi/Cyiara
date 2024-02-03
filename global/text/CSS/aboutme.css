@@ -1,5 +1,5 @@
 html {
-    background: url('https://pukacyi.github.io/Cyiara/global/assets/redstars.png') no-repeat fixed !important;
+    background: url('https://pukacyi.github.io/Cyiara/global/assets/redstars.png') no-repeat fixed;
     background-size: cover;
     background-color: var(--htmlfallbackdark) !important;
 }
@@ -24,7 +24,7 @@ html {
     text-align: left;
     margin: 40px 20px -20px;
 }
-  
+
 #text-box-amii .except {
     padding-top: -59px;
     margin-bottom: -25px !important;
@@ -38,22 +38,22 @@ html {
     margin: 25px 20px -5px;
     transition: transform 0.15s;
 }
-  
+
 #text-box-amii .wii-button:hover {
     border: 2px solid rgb(247, 6, 52);
     transform: scale(1.02);
 }
 
 .wii-button {
-  color: black;
-  background: linear-gradient(2.7646rad, #ececec, #d2d2d2);
-  border: 2px #b6b6b6 solid;
-  border-radius: 5px;
-  font-family: 'Wii', Arial;
-  font-size: 18px;
-  margin-left: 194px;
-  margin-top: 10px;
-  padding: 10px;
-  width: 100px;
-  box-shadow: -0.5px 3px 10px 0px black;
+    color: black;
+    background: linear-gradient(2.7646rad, #ececec, #d2d2d2);
+    border: 2px #b6b6b6 solid;
+    border-radius: 5px;
+    font-family: 'Wii', Arial;
+    font-size: 18px;
+    margin-left: 194px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 100px;
+    box-shadow: -0.5px 3px 10px 0px black;
 }

@@ -24,11 +24,26 @@ errorPage = document.getElementsByClassName('error-page');
 
 if (errorPage.length > 0) {
     trace("Henry what the fuck did you just do... HOW THE FUCK DID YOU BURN THE WATER??", "warn");
-    trace("Austin shut up you built like a Nintendo Wii", "info")
-    trace("stop talking to yourself","info");
-    trace("WII DELETED YOU.","warn");
 }
 
 document.addEventListener("DOMContentLoaded", function() {
     trace("Site fully loaded! :D", "note");
 });
+
+function hikkiomori() {
+    document.cookie = omo; 
+}
+
+function hikki() {
+    if (document.cookie.includes('omo')) {
+        hueh = new Audio('https://pukacyi.github.io/Cyiara/global/assets/music/hikki.mp3');
+        hueh.play();
+        hueh.loop();
+        trace("You wanted to see.. what lays beyond...","info")
+    }
+    else {
+        trace("What made you want to do this? Why are you so pathetic... ", "warn")
+    }
+}
+
+hikki();
