@@ -1,4 +1,4 @@
-.html {
+html {
     background: url('https://pukacyi.github.io/Cyiara/global/assets/redstars.png') no-repeat fixed !important;
     background-size: cover;
     background-color: var(--htmlfallbackdark) !important;
