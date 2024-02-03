@@ -36,7 +36,7 @@ function hikkiomori() {
 
 function hikki() {
     if (document.cookie.includes('omo')) {
-        hueh = new Audio('https://pukacyi.github.io/Cyiara/global/assets/music/hikki.mp3');
+        hueh = new Audio('https://pukacyi.github.io/Cyiara/global/assets/music/hikkomori.mp3');
         hueh.play();
         hueh.loop();
         trace("You wanted to see.. what lays beyond...","info")
