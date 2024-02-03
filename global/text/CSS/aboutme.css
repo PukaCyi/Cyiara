@@ -1,0 +1,59 @@
+.html {
+    background: url('https://pukacyi.github.io/Cyiara/global/assets/redstars.png') no-repeat fixed !important;
+    background-size: cover;
+    background-color: var(--htmlfallbackdark) !important;
+}
+
+#text-box-amii {
+    background-color: var(--banaintroboxbgcolor);
+    border-radius: 1vh;
+    border: 1.25px solid rgb(62, 0, 255);
+    box-shadow: 0 0 85px var(--bana-shadow);
+    backdrop-filter: blur(9px);
+    width: 53em;
+    height: 33em;
+    margin: 10em auto 0 !important;
+    display: flex;
+    flex-direction: column;
+    text-align: left !important;
+    color: white;
+    font-family: 'Wii';
+}
+
+#text-box-amii #text {
+    text-align: left;
+    margin: 40px 20px -20px;
+}
+  
+#text-box-amii .except {
+    padding-top: -59px;
+    margin-bottom: -25px !important;
+    text-align: center !important;
+}
+
+/** Buttons **/
+#text-box-amii .wii-button {
+    align-items: left;
+    justify-content: left;
+    margin: 25px 20px -5px;
+    transition: transform 0.15s;
+}
+  
+#text-box-amii .wii-button:hover {
+    border: 2px solid rgb(247, 6, 52);
+    transform: scale(1.02);
+}
+
+.wii-button {
+  color: black;
+  background: linear-gradient(2.7646rad, #ececec, #d2d2d2);
+  border: 2px #b6b6b6 solid;
+  border-radius: 5px;
+  font-family: 'Wii', Arial;
+  font-size: 18px;
+  margin-left: 194px;
+  margin-top: 10px;
+  padding: 10px;
+  width: 100px;
+  box-shadow: -0.5px 3px 10px 0px black;
+}

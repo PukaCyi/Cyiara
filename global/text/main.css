@@ -24,24 +24,6 @@ html {
   background-color: var(--htmlfallbackdark) !important;
 }
 
-.aboutme {
-  background: url('https://pukacyi.github.io/Cyiara/global/assets/redstars.png') no-repeat fixed;
-  background-size: cover;
-  background-color: var(--htmlfallbackdark) !important;
-}
-
-.dni {
-  background: url('https://pukacyi.github.io/Cyiara/global/assets/hell.png') no-repeat fixed;
-  background-size: cover;
-  background-color: var(--htmlfallbackdark) !important;
-}
-
-.interests {
-  background: url('https://pukacyi.github.io/Cyiara/global/assets/bright.png') no-repeat fixed;
-  background-size: cover;
-  background-color: var(--htmlfallbackdark) !important;
-}  
-
 #box-1 {
   background-color: var(--banaintroboxbgcolor);
   border-radius: 1vh;
@@ -57,24 +39,6 @@ html {
   justify-content: center;
 }
 
-/** About Me stuff **/
-#text-box-amii {
-  background-color: var(--banaintroboxbgcolor);
-  border-radius: 1vh;
-  border: 1.25px solid rgb(62, 0, 255);
-  box-shadow: 0 0 85px var(--bana-shadow);
-  backdrop-filter: blur(9px);
-  width: 53em;
-  height: 33em;
-  margin: 10em auto 0 !important;
-  display: flex;
-  flex-direction: column;
-  text-align: left !important;
-  color: white;
-  font-family: 'Wii';
-}
-
-
 #text {
   text-align: center;
   margin: 1px 0 5px;
@@ -82,79 +46,6 @@ html {
   font-weight: 600;
 }
 
-#text-box-amii #text {
-  text-align: left;
-  margin: 40px 20px -20px;
-}
-
-#text-box-amii .except {
-  padding-top: -59px;
-  margin-bottom: -25px !important;
-  text-align: center !important;
-}
-
-#text-box-amii .wii-button {
-  align-items: left;
-  justify-content: left;
-  margin: 25px 20px -5px;
-  transition: transform 0.15s;
-}
-
-#text-box-amii .wii-button:hover {
-  border: 2px solid rgb(247, 6, 52);
-  transform: scale(1.02);
-}
-
-/* Hell */
-#norax {
-  background-color: rgba(90, 2, 25, 0.15);
-  border-radius: 1vh;
-  border: 1.25px solid rgb(247, 6, 52);
-  box-shadow: 0 0 85px rgb(200, 2, 40);
-  backdrop-filter: blur(9px);
-  width: 53em;
-  height: 30em;
-  margin: 10em auto 0 !important;
-  display: flex;
-  flex-direction: column;
-  text-align: left !important;
-  color: white;
-  font-family: 'Wii';
-}
-
-#flame {
-  color: red;
-  text-shadow: 0 0 10px black;
-  font-size: 35px;
-  text-align: right; 
-  margin-top: 20px;
-  margin-right: 30px;
-}
-
-#norax .except {
-  text-align: right !important;
-  margin-right: 30px;
-}
-
-#norax .wii-button {
-  align-items: left;
-  justify-content: left;
-  margin: 25px 20px -5px;
-  transition: transform 0.15s;
-}
-
-#norax .wii-button:hover {
-  border: 2px solid rgb(247, 6, 52);
-  transform: scale(1.02);
-}
-  
-#norax hr {
-  border: 2px dashed red;;
-  width: 75%;
-  margin-left: 175px;
-}
-
-/* Button for Main Page */
 #box-1 .wii-button {
   margin-left: 1px;
   margin-right: 5px;
