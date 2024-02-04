@@ -25,23 +25,23 @@ const trace = function (txt, ty, ...nono) {
 
 if (currentChannel === "https://pukacyi.github.io/cyiara/aboutme" || currentChannel === "https://pukacyi.github.io/cyiara/about") {
     miiChannel = "https://pukacyi.github.io/Cyiara/pages/aboutme";
-    trace("Redirecting.", "info");
+    trace("Redirecting.", "note");
   } else 
   if (currentChannel === "https://pukacyi.github.io/cyiara/dni") {
     miiChannel = "https://pukacyi.github.io/Cyiara/pages/dni";
-    trace("Redirecting.", "info");
+    trace("Redirecting.", "note");
   } else 
   if (currentChannel === "https://pukacyi.github.io/cyiara/interests") {
     miiChannel = "https://pukacyi.github.io/Cyiara/pages/interests";
-    trace("Redirecting.", "info");
+    trace("Redirecting.", "note");
   } else 
   if (
     currentChannel === "https://pukacyi.github.io/cyiara/wdy" || currentChannel === "https://pukacyi.github.io/cyiara/mii" || currentChannel === "https://pukacyi.github.io/cyiara/henry" || currentChannel === "https://pukacyi.github.io/cyiara/austin" || currentChannel === "https://pukacyi.github.io/cyiara/eteled"
   ) {
     miiChannel = "https://pukacyi.github.io/Cyiara/wii";
-    trace("Redirecting.", "info");
+    trace("Redirecting.", "note");
   } else 
   if (currentChannel === "https://pukacyi.github.io/cyiara/cyinora") {
     miiChannel = "https://twitter.com/NightCyi";
-    trace("Redirecting.", "info");
+    trace("Redirecting.", "note");
 }
