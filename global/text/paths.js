@@ -1,10 +1,12 @@
-/** Notes for me
+/***
+* 
+** Notes for me
  * 
  * window.location.href = current page (I think??) || var: currentChannel
  * location.href = the thing you want to redirect to || var: miiChannel (use camelcase for vars)
  * "||" (OR)
  * "&&" (AND)
- */
+
 
 currentChannel = window.location.href.toLowerCase()
 miiChannel = location.href 
@@ -21,4 +23,6 @@ if (currentChannel === "https://pukacyi.github.io/cyiara/aboutme" || currentChan
     miiChannel = "https://pukacyi.github.io/Cyiara/wii";
 } else if (currentChannel === "https://pukacyi.github.io/cyiara/cyinora") {
     miiChannel = "https://twitter.com/NightCyi";
-}
+} 
+
+**/
