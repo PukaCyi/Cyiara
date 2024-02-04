@@ -1,40 +1,33 @@
-/** 
-    * This sucks. I'll try finding something.
-    
-if (location.href = "https://pukacyi.github.io/Cyiara/aboutme") {
-    location.href = "https://pukacyi.github.io/pages/aboutme";
-    trace("Redirecting.","info")
-} else {
-    // do nothing idiot.
-}
+/** Notes for me
+ * 
+ * window.location.href = current page (I think??) || var: currentChannel
+ * location.href = the thing you want to redirect to || var: miiChannel (use camelcase for vars)
+ * "||" (OR)
+ * "&&" (AND)
+ */
 
-if (location.href = "https://pukacyi.github.io/Cyiara/about") {
-    location.href = "https://pukacyi.github.io/pages/aboutme"
-    trace("Redirecting.","info")
-} else {
-    // do nothing idiot.
-}
+currentChannel = window.location.href.toLowerCase()
+miiChannel = location.href 
 
-if (location.href = "https://pukacyi.github.io/Cyiara/dni") {
-    location.href = "https://pukacyi.github.io/Cyiara/pages/dni"
-    trace("Redirecting.","info")
-} else {
-    // do nothing idiot.
+if (currentChannel === "https://pukacyi.github.io/cyiara/aboutme" || currentChannel === "https://pukacyi.github.io/cyiara/about") {
+    miiChannel = "https://pukacyi.github.io/Cyiara/pages/aboutme";
+    trace("Redirecting.", "info");
+  } else 
+  if (currentChannel === "https://pukacyi.github.io/cyiara/dni") {
+    miiChannel = "https://pukacyi.github.io/Cyiara/pages/dni";
+    trace("Redirecting.", "info");
+  } else 
+  if (currentChannel === "https://pukacyi.github.io/cyiara/interests") {
+    miiChannel = "https://pukacyi.github.io/Cyiara/pages/interests";
+    trace("Redirecting.", "info");
+  } else 
+  if (
+    currentChannel === "https://pukacyi.github.io/cyiara/wdy" || currentChannel === "https://pukacyi.github.io/cyiara/mii" || currentChannel === "https://pukacyi.github.io/cyiara/henry" || currentChannel === "https://pukacyi.github.io/cyiara/austin" || currentChannel === "https://pukacyi.github.io/cyiara/eteled"
+  ) {
+    miiChannel = "https://pukacyi.github.io/Cyiara/wii";
+    trace("Redirecting.", "info");
+  } else 
+  if (currentChannel === "https://pukacyi.github.io/cyiara/cyinora") {
+    miiChannel = "https://twitter.com/NightCyi";
+    trace("Redirecting.", "info");
 }
-
-if (location.href = "https://pukacyi.github.io/Cyiara/interests") {
-    location.href = "https://pukacyi.github.io/Cyiara/pages/interests"
-    trace("Redirecting.","info")
-}
-
-if (location.href = "https://pukacyi.github.io/Cyiara/wdy" || location.href = "https://pukacyi.github.io/Cyiara/henry" || location.href = "https://pukacyi.github.io/Cyiara/austin") {
-    location.href = "https://pukacyi.github.io/Cyiara/wii"
-    trace("Redirecting.","info")
-}
-
-if (location.href = "https://pukacyi.github.io/Cyiara/Cyinora") {
-    location.href = "https://twitter.com/NightCyi"
-    trace("Redirecting.","info")
-}
-
-**/
