@@ -9,6 +9,21 @@
 currentChannel = window.location.href.toLowerCase()
 miiChannel = location.href 
 
+/** defining trace function for paths.js only */
+const trace = function (txt, ty, ...nono) {
+  const ver = { warn: "Warning", note: "Notice" };
+  const hex = { warn: "#ff0019", note: "#ffa600" };
+  const pat = `color: ${hex[ty]}; font-weight: bold; font-family: "Arial"; font-size: 13px;`;
+
+  /* Error Catcher */
+  if (nono.length > 0 || !(ty in ver)) {
+      trace("You didn't run the trace command correctly. Please review the Help Guide for tracing below.", "warn");
+      traceHelper();
+  } else {
+      console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
+  }
+}
+
 if (currentChannel === "https://pukacyi.github.io/cyiara/aboutme" || currentChannel === "https://pukacyi.github.io/cyiara/about") {
     miiChannel = "https://pukacyi.github.io/Cyiara/pages/aboutme";
     trace("Redirecting.", "info");
