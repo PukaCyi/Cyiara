@@ -27,8 +27,8 @@ if (location.href = "https://pukacyi.github.io/Cyiara/interests") {
     trace("Redirecting.","info")
 }
 
-if (location.href = "https://pukacyi.github.io/Cyiara/wdy") {
-    location.href = "https://pukacyi.github.io/Cyiara/pages/wii"
+if (location.href = "https://pukacyi.github.io/Cyiara/wdy" || location.href = "https://pukacyi.github.io/Cyiara/henry" || location.href = "https://pukacyi.github.io/Cyiara/austin") {
+    location.href = "https://pukacyi.github.io/Cyiara/wii"
     trace("Redirecting.","info")
 }
 
