@@ -34,10 +34,10 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function hikkiomori() {
-    document.cookie = omo;
+    document.cookie = "omo=fuckJavaScript"; // it no no wanna :C
 }
 
-let bossRush = false;
+bossRush = false;
 
 function hikki() {
     if (!bossRush && document.cookie.includes('omo')) {
