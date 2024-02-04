@@ -17,8 +17,7 @@ const trace = function (txt, ty, ...nono) {
 
   /* Error Catcher */
   if (nono.length > 0 || !(ty in ver)) {
-      trace("You didn't run the trace command correctly. Please review the Help Guide for tracing below.", "warn");
-      traceHelper();
+      trace("You didn't run the trace command correctly. Please review the Help Guide for tracing.", "warn");
   } else {
       console.log(`%c[ ${ver[ty]} ] %c${txt}`, pat, '');
   }
