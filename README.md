@@ -1,3 +1,8 @@
+# Archived
+Archiving this because I find it stupid, and I want to just overall restart. To see the new version of this, click [here](https://github.com/PukaCyi/pukacyi.github.io).
+
+If you're reading this from the future, you still have to abide by the local license set here. That does not expire, I think - I have zero clue on how it works lmao.
+
 # Cyi's Thingy
 Created this out of boredom. The entire thing is open source, so feel free to experiment with it (though I don't recommend it because it's messy, and I dislike it a lot.)
 
